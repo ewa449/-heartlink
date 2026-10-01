@@ -5,20 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HeartLink - Find Your Connection</title>
-
   <style>
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-
     body {
       font-family: Arial, sans-serif;
       background: #fff7f8;
       color: #29202a;
     }
-
     header {
       display: flex;
       justify-content: space-between;
@@ -27,25 +24,21 @@
       background: white;
       border-bottom: 1px solid #f1dfe4;
     }
-
-    .logo {
+.logo {
       font-size: 26px;
       font-weight: bold;
       color: #e94f70;
     }
-
-    nav a {
+nav a {
       text-decoration: none;
       margin-left: 20px;
       color: #29202a;
       font-weight: 600;
     }
-
-    .login {
+.login {
       color: #e94f70;
     }
-
-    .hero {
+.hero {
       min-height: 80vh;
       display: flex;
       align-items: center;
@@ -61,30 +54,25 @@
     .hero-content {
       max-width: 760px;
     }
-
-    .heart {
+.heart {
       font-size: 55px;
       margin-bottom: 15px;
     }
-
-    h1 {
+h1 {
       font-size: clamp(42px, 7vw, 76px);
       line-height: 1.05;
       margin-bottom: 22px;
     }
-
-    h1 span {
+h1 span {
       color: #e94f70;
     }
-
-    .hero p {
+.hero p {
       font-size: 20px;
       line-height: 1.6;
       color: #665d66;
       margin-bottom: 32px;
     }
-
-    .button {
+.button {
       display: inline-block;
       background: #e94f70;
       color: white;
@@ -95,12 +83,10 @@
       font-size: 17px;
       box-shadow: 0 10px 25px rgba(233, 79, 112, 0.25);
     }
-
-    .button:hover {
+.button:hover {
       background: #d93e60;
     }
-
-    .features {
+.features {
       display: flex;
       justify-content: center;
       gap: 18px;
@@ -108,38 +94,26 @@
       padding: 30px 20px 60px;
       background: white;
     }
-
-    .feature {
+.feature {
       padding: 18px 25px;
       border-radius: 15px;
       background: #fff7f8;
       color: #4e454e;
       font-weight: 600;
     }
-
-    footer {
+footer {
       text-align: center;
       padding: 25px;
       background: #29202a;
       color: #ddd;
       font-size: 14px;
     }
-
-    @media (max-width: 600px) {
-      header {
-        padding: 18px 5%;
-      }
-
-      nav a {
+@media (max-width: 600px) {
+      header {padding: 18px 5%;}
+ nav a {
         margin-left: 10px;
-        font-size: 14px;
-      }
-
-      .hero {
-        min-height: 75vh;
-      }
-
-      .hero p {
+        font-size: 14px; }
+.hero {min-height: 75vh; ).hero p {
         font-size: 17px;
       }
     }
@@ -175,9 +149,9 @@
     </section>
 
     <section class="features" id="signup">
-      <div class="feature">🌍 Worldwide Dating</div>
-      <div class="feature">❤️ Meaningful Matches</div>
-      <div class="feature">💬 Connect & Chat</div>
+      <div class="feature"> Worldwide Dating</div>
+      <div class="feature">Meaningful Matches</div>
+      <div class="feature">Connect & Chat</div>
     </section>
   </main>
 
